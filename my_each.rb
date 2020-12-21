@@ -3,6 +3,7 @@ def my_each(array)
   while block_given?
     yield array[] do |each|
       i += 1 
-    end 
+  end
+end 
   array
 end
